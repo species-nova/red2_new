@@ -1,0 +1,11 @@
+<table>
+	<material_config path="units/pd2_dlc_red/architecture/red_vault_entrance" force="true"/>
+	<material_config path="units/world/props/bank/vault/vault_new" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_carpet_vault_entrance_df" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_marble_02_512_df" force="true"/>
+	<texture load="true" path="units/world/props/bank/safety_box/safety_box_gsma" force="true"/>
+	<texture load="true" path="units/world/props/bank/vault/vault_gsma" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_marble_05_gsma" force="true"/>
+	<object path="units/pd2_dlc_red/architecture/red_int_vault_entrance/red_int_vault_entrance" force="true"/>
+	<object path="units/world/props/bank/vault/vault_door_set" force="true"/>
+</table>
