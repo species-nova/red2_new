@@ -94,12 +94,12 @@
         <variable type="vector3" name="environment_settings" value="1 0 2"/>
 		<variable type="scalar" name="glossiness_control" value="0.2"/>
     </material>
-    <material decal_material="wood" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2" name="mat_int_trims">
+    <material decal_material="wood" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" version="2" name="mat_int_trims">
         <diffuse_texture file="units/pd2_dlc_red/architecture/textures/red_int_trims_df"/>
         <bump_normal_texture file="units/pd2_dlc_red/architecture/textures/red_int_trims_nm"/>
+		<material_texture file="units/pd2_dlc_red/architecture/textures/red_int_trims_gsma"/>
 		<reflection_texture type="cube" global_texture="current_global_texture"/>
         <variable type="vector3" name="environment_settings" value="1 0 2"/>
-		<variable type="scalar" name="glossiness_control" value="0.2"/>
     </material>
     <material decal_material="marble" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2" name="mat_int_stonewall">
         <diffuse_texture file="units/pd2_dlc_red/architecture/textures/red_int_stonewall_df"/>
