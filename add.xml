@@ -5,6 +5,7 @@
 	<material_config path="units/pd2_dlc_red/architecture/red_vault_entrance" force="true"/>
 	
 	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_carpet_vault_entrance_df" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_brushedmetal_gsma" force="true"/>
 	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_marble_02_512_df" force="true"/>
 	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_marble_05_gsma" force="true"/>
 	

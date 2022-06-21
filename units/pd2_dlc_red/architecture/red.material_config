@@ -136,15 +136,17 @@
         <diffuse_texture file="units/pd2_dlc_red/architecture/textures/red_int_carpet_df"/>
         <bump_normal_texture file="units/pd2_dlc_red/architecture/textures/red_int_blank_nm"/>
     </material>
-    <material decal_material="marble" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" name="mat_int_brushedmetal" version="2">
+    <material decal_material="sheet_metal" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" name="mat_int_brushedmetal" version="2">
         <diffuse_texture file="units/pd2_dlc_red/architecture/textures/red_int_brushedmetal_df"/>
         <bump_normal_texture file="units/pd2_dlc_red/architecture/textures/red_int_blank_nm"/>
+		<material_texture file="units/pd2_dlc_red/architecture/textures/red_int_brushedmetal_gsma"/>
         <reflection_texture type="cube" global_texture="current_global_texture"/>
         <variable type="vector3" name="environment_settings" value="1 0 2"/>
     </material>
-    <material decal_material="marble" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_int_brushedmetal_tint" version="2">
+    <material decal_material="sheet_metal" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_int_brushedmetal_tint" version="2">
         <diffuse_texture file="units/pd2_dlc_red/architecture/textures/red_int_brushedmetal_df"/>
         <bump_normal_texture file="units/pd2_dlc_red/architecture/textures/red_int_blank_nm"/>
+		<material_texture file="units/pd2_dlc_red/architecture/textures/red_int_brushedmetal_gsma"/>
         <reflection_texture type="cube" global_texture="current_global_texture"/>
         <variable type="vector3" name="environment_settings" value="1 0 2"/>
     </material>
