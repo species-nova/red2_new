@@ -12,6 +12,11 @@
 	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_marble_05_gsma" force="true"/>
 	
 	<object path="units/pd2_dlc_red/architecture/red_int_vault_entrance/red_int_vault_entrance" force="true"/>
+	<object path="units/pd2_dlc_red/architecture/red_int_building_lobby/red_int_building_lobby" force="true"/>
+	<object path="units/pd2_dlc_red/props/red_prop_pillar_dest/red_prop_pillar_breakable_01" force="true"/>
+	<object path="units/pd2_dlc_red/props/red_prop_pillar_dest/red_prop_pillar_breakable_02" force="true"/>
+	<object path="units/pd2_dlc_red/architecture/red_int_office_lower/red_int_office_lower" force="true"/>
+	<object path="units/pd2_dlc_red/architecture/red_ext_building_facade/red_ext_building_facade" force="true"/>
 	
 	<!--props-->
 	<material_config path="units/pd2_dlc_red/props/red_prop_gate_thermal/red_prop_gate_thermal" force="true"/>
