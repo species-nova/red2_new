@@ -34,7 +34,7 @@
         <diffuse_texture file="units/world/props/bank/safety_box/safety_box_df"/>
 		<material_texture file="units/world/props/bank/safety_box/safety_box_gsma"/>
         <reflection_texture type="cubemap" global_texture="current_global_texture"/>
-        <variable type="vector3" name="environment_settings" value="1 0 2"/>
+        <variable type="vector3" name="environment_settings" value="1 0 0.20000000298023"/>
         <bump_normal_texture file="units/world/props/bank/safety_box/safety_box_nm"/>
     </material>
     <material render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" name="mat_thermite" version="2">
@@ -67,12 +67,11 @@
         <reflection_texture type="cube" global_texture="current_global_texture"/>
         <variable type="vector3" name="environment_settings" value="1 0 2"/>
     </material>
-    <material decal_material="marble" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GLOSS_CONTROL_VALUE:NORMALMAP:RL_CORE_ENVIRONMENT" name="mat_int_marble_03" version="2">
+    <material decal_material="marble" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" name="mat_int_marble_03" version="2">
         <diffuse_texture file="units/pd2_dlc_red/architecture/textures/red_int_marble_03_df"/>
         <bump_normal_texture file="units/pd2_dlc_red/architecture/textures/red_int_marble_03_nm"/>
         <reflection_texture type="cube" global_texture="current_global_texture"/>
 		<variable type="vector3" name="environment_settings" value="1 0 2"/>
-        <variable type="scalar" name="glossiness_control" value="0.1"/>
     </material>
     <material decal_material="marble" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:RL_CORE_ENVIRONMENT" name="mat_int_marble_03_trim" version="2">
         <diffuse_texture file="units/pd2_dlc_red/architecture/textures/red_int_marble_03_trim_df"/>
