@@ -3,13 +3,17 @@
 	
 	<!--architecture-->
 	<material_config path="units/pd2_dlc_red/architecture/red_vault_entrance" force="true"/>
-	
+
 	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_carpet_vault_entrance_df" force="true"/>
 	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_brushedmetal_gsma" force="true"/>
 	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_trims_gsma" force="true"/>
 	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_marble_01_gsma" force="true"/>
 	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_marble_02_512_df" force="true"/>
 	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_marble_05_gsma" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_wood_gsm" force="true"/>
+	
+	<texture load="true" path="units/pd2_dlc_red/architecture/textures/din_facade_metal_01_gsm" force="true"/>
+	<texture load="true" path="units/pd2_dlc_red/architecture/textures/din_facade_metal_02_gsm" force="true"/>
 	
 	<object path="units/pd2_dlc_red/architecture/red_int_vault_entrance/red_int_vault_entrance" force="true"/>
 	<object path="units/pd2_dlc_red/architecture/red_int_building_lobby/red_int_building_lobby" force="true"/>
