@@ -3,6 +3,8 @@
 	
 	<!--architecture-->
 	<material_config path="units/pd2_dlc_red/architecture/red_vault_entrance" force="true"/>
+	<material_config path="units/pd2_dlc_red/architecture/red_vault_extra" force="true"/>
+	<material_config path="units/pd2_dlc_red/equipment/red_s_cube/red_s_cube" force="true"/>
 
 	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_carpet_vault_entrance_df" force="true"/>
 	<texture load="true" path="units/pd2_dlc_red/architecture/textures/red_int_brushedmetal_gsma" force="true"/>
@@ -16,6 +18,7 @@
 	<texture load="true" path="units/pd2_dlc_red/architecture/textures/din_facade_metal_02_gsm" force="true"/>
 	
 	<object path="units/pd2_dlc_red/architecture/red_int_vault_entrance/red_int_vault_entrance" force="true"/>
+	<object path="units/pd2_dlc_red/architecture/red_int_vault_extra/red_int_vault_extra" force="true"/>
 	<object path="units/pd2_dlc_red/architecture/red_int_building_lobby/red_int_building_lobby" force="true"/>
 	<object path="units/pd2_dlc_red/props/red_prop_pillar_dest/red_prop_pillar_breakable_01" force="true"/>
 	<object path="units/pd2_dlc_red/props/red_prop_pillar_dest/red_prop_pillar_breakable_02" force="true"/>
